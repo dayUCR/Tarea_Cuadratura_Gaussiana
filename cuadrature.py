@@ -100,9 +100,9 @@ for i in range(cantidad_n):
 
 # Se grafica el valor de la integral en función de N.
 plt.figure(figsize=(8,5))
-plt.plot(valores_N, resultados, marker='.', linestyle='-')
+plt.plot(valores_N, resultados)
 
-plt.title('Convergencia de la integral $I = \int_0^\pi \sin(x^2) dx$')
+plt.title('Convergencia de la integral')
 plt.xlabel('Número de puntos ($N$)')
 plt.ylabel('Valor de la integral')
 plt.grid(True)
